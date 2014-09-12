@@ -1,0 +1,7 @@
+# place this file at /etc/cron.d/debmirror
+
+
+# change the paths if you need to
+
+# mirror every day at 5am
+0 5 * * * root /opt/get-debian/mirror.sh >> /var/log/debmirror-debian.log 2>&1
