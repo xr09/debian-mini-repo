@@ -16,8 +16,9 @@ debmirror --method=http --config-file=/opt/get-debian/debmirror.conf --nosource 
 	  --exclude='(/.*-doc)' \
 	  --include='(/(sqlite3|ansible|coffescript|geany|libjs|nginx|php|postgres|pypy|python-(django|flask|jinja|sql|werkzeug)).*doc)' \
 	  --include='(/.*(xorg|ruby).*doc.*)' \
-          --include='(/python[0-9.]*-doc)' \
-          --exclude='(openjdk.*doc.*)' \
+      --include='(/firebird.*-doc)' \
+      --include='(/python[0-9.]*-doc)' \
+      --exclude='(openjdk.*doc.*)' \
 	  --exclude='(typo3-src.*)' \
 	  --exclude='(gdb-source.*)' \
 	  --exclude='(w3af-console.*)' \
