@@ -98,7 +98,6 @@ debmirror --method=http --config-file=/opt/get-debian/debmirror.conf --nosource 
           --exclude='(/grass.*)' \
           --exclude='(/iceape.*)' \
           --exclude='(/instalation-guide-.*)' \
-          --include='(/instalation-guide-i386)' \
           --exclude='(/ooohg.*)' \
           --exclude='(/libosl-doc.*)' \
           --exclude='(/libreoffice-help.*)' \
@@ -118,7 +117,6 @@ debmirror --method=http --config-file=/opt/get-debian/debmirror.conf --nosource 
           --exclude='(/gimp-help-.*)'\
           --include='(/gimp-help-common.*)'\
           --include='(/gimp-help-en.*)'\
-          --include='(/gimp-help-es.*)'\
           --exclude='(/mbrola-de.*)'\
           --exclude='(/mgltools.*)'\
           --exclude='(/mecab.*)'\
@@ -180,7 +178,6 @@ debmirror --method=http --config-file=/opt/get-debian/debmirror.conf --nosource 
           --exclude='(/ruby-feedtools-doc.*)'\
           --exclude='(/ruby-activeldap-doc.*)'\
           --exclude='(/kde-l10n-.*)'\
-          --include='(/kde-l10n-es.*)'\
           --exclude='(/quantum-espresso.*)'\
           --exclude='(/emacs23.*)'\
           --exclude='(/emboss.*)'\
@@ -254,6 +251,5 @@ debmirror --method=http --config-file=/opt/get-debian/debmirror.conf --nosource 
           --exclude='(/groovy.*)'\
           --exclude='(/coinor-.*)' \
           --exclude='(/iceweasel-l10n-.*)' \
-          --include='(/iceweasel-l10n-es.*)' \
 	  --exclude='(/debian-installer-netboot-images.*)'
 
