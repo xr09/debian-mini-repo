@@ -1,7 +1,15 @@
-debian-mini-repo
-================
+Create your own Debian (or Ubuntu) minimal software repository
+==============================================================
 
-Template for creating your own debian/ubuntu repository using debmirror's exclude options.
+This is a template for creating your own debmirror script using exclude options to avoid downloading those heavy software packages you don't plan to use.
+
+
+When to use this solution
+=========================
+
+* You don't have access to broadband internet 24/7
+* You want to install a number of workstations without downloading the same packages over and over
+* You want to have your own repo on your local/home network.
 
 Install
 =======
